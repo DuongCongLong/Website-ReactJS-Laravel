@@ -1,0 +1,182 @@
+body{
+    background-color: #f1f1f1;
+}
+.header{
+    background-color: #002D3A;
+}
+.logoimages img{
+    width: 200px;
+    height: auto;
+}
+.bc{
+    background-color: white;
+}
+.smd{
+    background-color: #A2FF00;
+}
+.mota{
+    color: #002D3A ;
+}
+.hinh
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+.hinh1
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #002D3A ;
+}
+
+.mdh1{
+    background-color: #002D3A;
+    color: white;
+    text-align: center;
+}
+.mdh2{
+    background-color: #A2FF00;
+    color: black;
+    text-align: center;
+}
+.imgfooter
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+.btnd{
+    background-color: #002D3A;
+    width: 125px;
+    height: auto;
+    border-radius: 10px;
+}
+.footer ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer ul>li>a
+{
+    text-decoration: none;
+    color: black;
+}
+.imglistmenu
+{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+.footer_footer{
+    text-align: center;
+    background-color: #002D3A;
+}
+.ab{
+    background-color: #A2FF00;
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.category {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.category h2 {
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 14px;
+}
+.category img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product {
+    width: calc(16.66% - 20px); /* Chiều rộng 16.66% cho 6 sản phẩm */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product .price {
+    margin-top: 10px;
+}
+
+.product .price span.old-price {
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.product .price span.new-price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.view-all-button {
+    text-align: center;
+    margin-top: 40px;
+}
+.old-price {
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.new-price {
+    font-weight: bold;
+    color: #007bff;
+}
