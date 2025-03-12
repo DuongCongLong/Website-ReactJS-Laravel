@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Outlet } from "react-router-dom"; // Import Outlet để hiển thị các route con
+import { CartProvider } from "./components/CartContext"; // Import CartProvider
+import { Provider } from "react-redux"; // Import Provider từ react-redux
+import store from "./components/store"; // Giả sử store được cấu hình trong tệp store.js
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>  {/* Bao bọc toàn bộ ứng dụng trong Provider */}
+      <CartProvider> {/* CartProvider bao bọc phần liên quan đến giỏ hàng */}
+        <div className="App">
+          <Outlet />
+        </div>
+      </CartProvider>
+    </Provider>
   );
 }
 
